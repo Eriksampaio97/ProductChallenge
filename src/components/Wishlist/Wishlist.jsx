@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './whishlist.scss';
+import './Wishlist.scss';
 const Wishlist = () => {
   const [wishlistActive, setWishlistActive] = useState(false);
   const addWishlist = () => {

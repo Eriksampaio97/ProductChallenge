@@ -1,6 +1,6 @@
 import React from 'react';
 import AddBtn from '../AddBtn/AddBtn';
-import Wishlist from '../Wishlist/Whishlist';
+import Wishlist from '../Wishlist/Wishlist';
 
 import './CardProduct.scss';
 const CardProduct = ({ itens }) => {
