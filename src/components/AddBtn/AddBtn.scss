@@ -8,8 +8,42 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
+  width: 100%;
   cursor: pointer;
+  margin-top: 10px;
+  @media screen and (max-width:600px){
+    font-size: 12px;
+    line-height: 20px;
+  }
   &:hover{
     background-color: #1E9631;
+  }
+}
+.addedToCartBtn{
+  background-color: #A3F9B9;
+  padding: 12px 24px;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  &::before{
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url('./assets/check.png') center no-repeat;
+  }
+  @media screen and (max-width:600px){
+    font-size: 12px;
+    line-height: 20px;
   }
 }

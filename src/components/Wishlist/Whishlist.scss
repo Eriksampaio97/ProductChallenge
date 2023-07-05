@@ -1,0 +1,32 @@
+.wishlist{
+  width: 48px;
+  height: 48px;
+  border: none;
+  content: '';
+  background: url('./assets/wishlist.png') center no-repeat;
+  cursor: pointer;
+
+  position: absolute;
+  right: 12%;
+  &:hover{
+    
+    background: url('./assets/wishlistHover.png') center no-repeat;
+    transition: 4ms;
+  }
+}
+
+.wishlistActive{
+  width: 48px;
+  height: 48px;
+  border: none;
+  content: '';
+  background: url('./assets/wishlistActive.png') center no-repeat;
+  cursor: pointer;
+  position: absolute;
+  right: 12%;
+  &:hover{
+    
+    background: url('./assets/wishlistActiveHover.png') center no-repeat;
+    transition: 4ms;
+  }
+}

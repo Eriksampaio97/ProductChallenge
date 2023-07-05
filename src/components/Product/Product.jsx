@@ -20,11 +20,7 @@ const Product = () => {
       price: 499.99,
     },
   ];
-  return (
-    <div className="cardProducts">
-      <CardProduct itens={products} />
-    </div>
-  );
+  return <CardProduct itens={products} />;
 };
 
 export default Product;
