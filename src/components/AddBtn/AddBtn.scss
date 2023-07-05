@@ -1,0 +1,15 @@
+.addToCartBtn{
+  background-color: #40B25C;
+  padding: 12px 24px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  &:hover{
+    background-color: #1E9631;
+  }
+}
