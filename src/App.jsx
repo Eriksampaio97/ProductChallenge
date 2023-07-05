@@ -5,7 +5,6 @@ import './app.scss';
 const App = () => {
   return (
     <>
-      <h1 className="tituloAqui">App React</h1>
       <Product />
     </>
   );
