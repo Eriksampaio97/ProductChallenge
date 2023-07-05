@@ -10,14 +10,14 @@ const Product = () => {
     {
       name: 'Monitor LED 27 Gamer Curvo Samsung  1920 x 1080 FHD 240 Hz HDMI, DP, Gsync Série CRG50',
       image: product1,
-      oldPrice: 2813.0,
-      price: 2599.0,
+      oldPrice: 2813,
+      price: 2599,
     },
     {
       name: 'Monitor Gamer LG 21.5 LED Full HD, 75Hz, 5ms, HDMI, FreeSync - 22MP410-B',
       image: product2,
       oldPrice: 888,
-      price: 499.99,
+      price: 500,
     },
   ];
   return <CardProduct itens={products} />;

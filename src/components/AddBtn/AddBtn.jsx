@@ -3,15 +3,16 @@ import './AddBtn.scss';
 
 const AddBtn = () => {
   const [add, setAdd] = useState(false);
-  const btn = () => {
-    document.querySelector('.addToCartBtn').classList.add('added');
+  const addToCart = () => {
     if (!add) {
       setAdd(true);
-      document.querySelector('.addToCartBtn').classList.remove('added');
     } else setAdd(false);
   };
   return (
-    <button className={add ? 'addedToCartBtn' : 'addToCartBtn'} onClick={btn}>
+    <button
+      className={add ? 'addedToCartBtn' : 'addToCartBtn'}
+      onClick={addToCart}
+    >
       {add ? 'Adicionado' : 'Adicionar'}
     </button>
   );
