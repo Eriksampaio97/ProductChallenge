@@ -31,7 +31,7 @@ const CardProduct = ({ itens }) => {
           <p className="product__installments">
             em até{' '}
             <span>
-              10x de
+              10x de{' '}
               {(item.price / 10).toLocaleString('pt-BR', {
                 style: 'currency',
                 currency: 'BRL',
